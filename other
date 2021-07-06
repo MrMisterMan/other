@@ -34,21 +34,6 @@
   display: none;
 }
 
-/* Online status */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
-  fill: var(--old-green);
-}
-
-/* Online status (mobile) */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
-  fill: var(--old-green);
-}
-
-/* Online status (typing and other) */
-.wrapper-3t9DeA svg.cursorDefault-dsQJ1n > rect[fill="#3ba55c"] {
-  fill: var(--old-green);
-}
-
 /* Revert loading tip title color */
 .tipTitle-GL9qAt {
   color: var(--brand-experiment) !important;
